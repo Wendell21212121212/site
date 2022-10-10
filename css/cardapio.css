@@ -1,0 +1,73 @@
+*{
+    font-style: italic;
+}
+
+
+input{
+    top: 400%;
+    right: 400%;
+    transform: translate(-1%,-1%);
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px #9A86FD;
+    outline: none;
+    border-radius: 35px;
+    transition: all 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 #9A86FD;
+}
+  
+  
+input::placeholder{
+    color: #efefef;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+  
+input:focus::placeholder{
+    opacity: 1;
+}
+  
+input:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 #fff;
+}
+  
+input:focus,
+input:not(:placeholder-shown){
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 #fff;
+}
+
+p{
+    justify-content: center;
+    padding: 20px;
+    color:#fff;
+}
+
+.cardapio_um{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.cardapio_dois{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.cardapio_tres{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+marquee{
+    font-size: 50px;
+    color: #fff;
+    
+}
+

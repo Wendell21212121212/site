@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="icon"  type="imagem/png " href="images/fundo-topo.jpeg" >
+    <script defer src="./js/cadastro.js"></script>
+    <title>Cadastro</title>
+</head>
+    <header>
+      <h1>Cadastro</h1>
+    </header>
+
+<body>
+        <!-- <table width='510' border='1' cellpadding='1' cellspacing='1' bgcolor='#CCCCCC'>
+            <tr>
+              <td>
+  <tr>
+                 <td width='500'>Nome:$nome</td>
+                </tr>
+                <tr>
+                  <td width='320'>E-mail:<b>$email</b></td>
+     </tr>
+      <tr>
+                  <td width='320'>Telefone:<b>$telefone</b></td>
+                </tr>
+     <tr>
+                  <td width='320'>Opções:$escolhas</td>
+                </tr>
+                <tr>
+                  <td width='320'>Mensagem:$nome</td>
+                </tr>
+            </td>
+          </tr>
+          <tr>
+            <td>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></td>
+          </tr>
+        </table> -->
+
+    <div class="login-box">
+      <h2>Faça seu cadastro</h2>
+      <form>
+        <div class="user-box">
+          <input type="text" name="nome" required>
+          <label for="Username">Nome: </label>
+        </div>
+
+        <div class="user-box">
+          <input type="email" name="email" required>
+          <label for="E-mail">E-Mail: </label>
+        </div>
+
+        <div class="user-box">
+          <input type="password" name="senha" required>
+          <label for="senha">Senha: </label>
+        </div>
+
+        <div class="user-box">
+          <input type="text" name="produto" required>
+          <label for="produto">Produto: </label>
+        </div>
+
+
+        <div class="button-form">
+          <a id="submit" href="#">Enviar </a>
+        </div>
+      </form>
+
+    </div>
+</body>
+</html>
